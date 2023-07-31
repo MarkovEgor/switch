@@ -1,4 +1,4 @@
-<script>
+
 document.addEventListener('DOMContentLoaded', () => {
  document.querySelectorAll('.switch').forEach(trigger => {
   trigger.addEventListener('click', function(){ 
@@ -49,9 +49,7 @@ document.addEventListener('DOMContentLoaded', () => {
       document.querySelectorAll('.block_radio_bg_source_two').forEach(target => target.classList.add('off'));
       document.querySelectorAll('.block_radio_source_two_bg').forEach(target => target.classList.add('off'));
       document.querySelectorAll('.box_sub_menu_source').forEach(target => target.classList.add('off'));
-      document.querySelectorAll('.logo_footer_source_one').forEach(target => target.classList.add('off'));
-      document.querySelectorAll('.logo_footer_source_two').forEach(target => target.classList.add('off'));
-      document.querySelectorAll('.section_recommend_source').forEach(target => target.classList.add('off'));
+    
       }
       else{ 
       document.querySelectorAll('.switch-off').forEach(target => target.classList.remove('off'));
@@ -99,11 +97,9 @@ document.addEventListener('DOMContentLoaded', () => {
       document.querySelectorAll('.block_radio_bg_source_two').forEach(target => target.classList.remove('off'));
       document.querySelectorAll('.block_radio_source_two_bg').forEach(target => target.classList.remove('off'));
       document.querySelectorAll('.box_sub_menu_source').forEach(target => target.classList.remove('off'));
-      document.querySelectorAll('.logo_footer_source_one').forEach(target => target.classList.remove('off'));
-      document.querySelectorAll('.logo_footer_source_two').forEach(target => target.classList.remove('off'));
-      document.querySelectorAll('.section_recommend_source').forEach(target => target.classList.remove('off'));
+     
       } 
     });
  });
 });
-</script>
+
